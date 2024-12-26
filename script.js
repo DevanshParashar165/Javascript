@@ -331,5 +331,45 @@
 // var votable = (age<18)?"Too young":"Old enough";
 // console.log(votable)
 
-var myCollection = [1,"meera maam",true,{name:"Sanjeev",age:30},function(name){console.log(name)},["abhishek","bacchan","amitabh","bacchan"]]
-console.log(myCollection)
+// var myCollection = [1,"meera maam",true,{name:"Sanjeev",age:30},function(name){console.log(name)},["abhishek","bacchan","amitabh","bacchan"]]
+// console.log(myCollection)
+
+// function information(firstName,lastname,language){
+//     if(arguments.length===3){
+//         console.log(firstName);
+//         console.log(lastname);
+//         console.log(language);
+//     }
+// }
+// information();
+// information('Devansh','Parashar','English');
+
+// function over(){
+//     document.getElementById('mytext').style.color="#000";
+// }
+
+// function mout(){
+//     document.getElementById('mytext').style.color="magenta"
+// }
+
+// var retVal=confirm("Do you want to continue ? ");
+// if(retVal==true){
+//     alert("User Wants to Continue!");
+// } else {
+//     alert("User does not want to Continue!")
+// }
+
+// var retVal = prompt("Enter your name : ","your Name here");
+// alert("You have entered : "+retVal)
+
+// var name = prompt("Enter Your name","Name");
+// document.write(`<h2>Hello ${name}</h2>`)
+
+// var question = "What is 10+10";
+// var ansewr = 20;
+// var correct = '<img src ="https://static.vecteezy.com/system/resources/thumbnails/008/134/818/small_2x/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg" height="150" width="250">'
+// var incorrect = '<img src ="https://static.vecteezy.com/system/resources/thumbnails/008/134/818/small_2x/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg" height="150" width="250">'
+// var response = prompt(question,"0");
+// for(let count=0;count<3;count++){
+
+// }
