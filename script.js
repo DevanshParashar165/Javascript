@@ -365,11 +365,52 @@
 // var name = prompt("Enter Your name","Name");
 // document.write(`<h2>Hello ${name}</h2>`)
 
-// var question = "What is 10+10";
-// var ansewr = 20;
-// var correct = '<img src ="https://static.vecteezy.com/system/resources/thumbnails/008/134/818/small_2x/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg" height="150" width="250">'
-// var incorrect = '<img src ="https://static.vecteezy.com/system/resources/thumbnails/008/134/818/small_2x/check-mark-icon-checkmark-right-symbol-tick-sign-ok-button-correct-circle-icon-free-vector.jpg" height="150" width="250">'
-// var response = prompt(question,"0");
-// for(let count=0;count<3;count++){
+// var question="What is 10 +10";
+
+// var answer = 20 ;
+
+// var correct='<img src="1.jpg" height = " 150 " width = "250">';
+
+// var incorrect='<img src="love.jpg" height ="150" prime prime width ="250 "';
+
+// var response=prompt(question,"0");
+
+// for(count=0;count<3;count++)
+
+// {
+
+// if (response!=answer)
+
+// {
+
+// confirm("Wrong, Press OK for another chance");
+
+// response-prompt(question, "0");
+
+// if(count==1)
+
+// {
+
+// alert("Better luck next time");
 
 // }
+
+// }
+
+// else
+
+// {
+
+// alert("Great!! you are right");
+
+// count = 3 ;
+
+// }
+
+// }
+
+// var output=(response-answer)?correct:incorrect;
+
+// document.write("</BR>");
+
+// document.write(output);
