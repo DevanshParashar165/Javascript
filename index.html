@@ -8,13 +8,27 @@
 </head>
 
 <!-- <body onload="alert('Welcome')"> -->
-    <body>
+
+<body>
     <!-- <input type="button" value="sayHello" onclick="sayHello()"> -->
     <!-- <button onclick="sayHello('Devansh',19)" style="cursor: pointer;">Try it</button> -->
-     <!-- <button onclick="myFunction()">Try it</button> -->
+    <!-- <button onclick="myFunction()">Try it</button> -->
     <p id="demo"></p>
     <p class="demo2"></p>
     <!-- <h2 id="mytext" onmouseover="over()" onmouseout="mout()">Hello world</h2> -->
+    <!-- <button value="Print" onclick="window.print()">Print</button> -->
+    <!-- <button value="Relocate" onclick="Redirect()">Relocate</button> -->
+    <!-- <form name="addressform">
+        Name:<input name="yourname"><br>
+        Phone:<input name="phone"><br>
+        Email:<input name="email"><br>
+    </form> -->
+    <form action="http://www.facebook.com" name="myForm" onsubmit="return validateForm()" method="post">
+        <!-- First name:<input type="text" name="fname">
+        <input type="submit" value="Submit"> -->
+        Mobile no.:<input type="text" name="call">
+        <input type="submit" value="Submit"> 
+    </form>
     <script src="script.js"></script>
 </body>
 

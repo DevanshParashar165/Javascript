@@ -414,3 +414,29 @@
 // document.write("</BR>");
 
 // document.write(output);
+
+// function Redirect(){
+//     window.location="https://www.facebook.com";
+// }
+// document.write("you will be redirected to main page in 10sec");
+// setTimeout('Redirect()',10000);
+
+// function validateForm(){
+//     var x = document.forms.myForm.fname.value;
+//     if(x==null||x==""){
+//         alert("First name must be filled");
+//         return false;
+//     }
+// }
+
+function validateForm(){
+    var y = document.forms.myForm.call.value;
+    if(y.length!=10){
+        alert("Enter 10 digit mobile number");
+        return false;
+    }
+    if(!y.match(/^[0-9]{10}$/)){
+        alert("Only digits.Please");
+        return false;
+    }
+}
