@@ -429,14 +429,21 @@
 //     }
 // }
 
-function validateForm(){
-    var y = document.forms.myForm.call.value;
-    if(y.length!=10){
-        alert("Enter 10 digit mobile number");
-        return false;
-    }
-    if(!y.match(/^[0-9]{10}$/)){
-        alert("Only digits.Please");
-        return false;
-    }
-}
+// function validateForm(){
+//     var y = document.forms.myForm.call.value;
+//     if(y.length!=10){
+//         alert("Enter 10 digit mobile number");
+//         return false;
+//     }
+//     if(!y.match(/^[0-9]{10}$/)){
+//         alert("Only digits.Please");
+//         return false;
+//     }
+// }
+
+// function validateForm(){
+//     var x = document.forms.myForm.email.value;
+//     var atpos = x.indexOf("@");
+//     var dotpos = x.lastIndexOf(".");
+//     if(atpos<1 || dot)
+// }
