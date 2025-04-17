@@ -255,10 +255,92 @@
 
 // doingStuff("param")
 
-function confuseReader(){
-    x = "Guess my scope.......";
-    console.log("Inside the functon : ",x);
-}
+// function confuseReader(){
+//     x = "Guess my scope.......";
+//     console.log("Inside the functon : ",x);
+// }
 
-confuseReader();
-console.log("Outside the function : ",x);
+// confuseReader();
+// console.log("Outside the function : ",x);
+
+//                   IIFE(Immediately invoked function expression)
+
+// (function(){
+//     console.log("IIFE!");
+// })();
+
+// (()=>{
+//     console.log("Run rigth away");
+// })();
+
+
+//                              Recursive functions
+
+
+// function getRecursive(nr){
+//     console.log(nr);
+//     if(nr>0){
+//        getRecursive(--nr);
+//     }
+    
+// }
+
+// getRecursive(3);
+
+
+// function getRecursive(nr){
+//     if(nr>0){
+//        getRecursive(--nr);
+//     }
+//     console.log(nr);
+// }
+
+// getRecursive(3);
+
+// function logRecursive(nr){
+//     console.log("Started function: ",nr);
+//     if(nr>0){
+//         logRecursive(nr-1);
+//     }else{
+//         console.log("done with recursion");
+//     }
+//     console.log("Ended function: ",nr);
+// }
+
+// logRecursive(3);
+
+// function doOuterFunctionStuff(nr){
+//     console.log("Outer function");
+//     function doInnerFunctionStuff(x){
+//         console.log(x+7);
+//         console.log("I can access outer variables : ",nr);
+//     }
+// }
+// doOuterFunctionStuff(2);
+
+//                                Anonymous function
+
+let functionVariable = function(){
+    console.log("Not so secret though")
+};
+
+// functionVariable();
+
+//                               Function callback
+
+// function doFlexibleStuff(executeStuff){
+//     executeStuff();
+//     console.log("Inside doFlexibleStuff Function");
+// }
+
+// doFlexibleStuff(functionVariable);
+
+
+//                                  setTime Functions
+
+// let youGotThis = function(){
+//     console.log("You're doing really well,'keep coding!");
+// };
+
+// // setTimeout(youGotThis,3000);
+// setInterval(youGotThis,3000);
